@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://passport.baidu.com/static/passpc-account/img/reg_bg_min.jpg);
+}
+a{
+    color: rgb(0, 47, 255);
+}
+.showbox{
+    width:500px;
+    padding:30px;
+    margin:0 auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: rgba(214, 213, 213, 0.753);
+}
+input{
+    width:80%;
+    height:40px;
+    line-height: 30px;
+    margin: 5px 0;
+    padding-left: 15px;
+    border:1px solid #c2c0c0;
+    border-radius: 5px;
+    /* border:1px solid black */
+}
+.txt{
+    margin: 10px 0;
+    padding-right: 16px;
+}
+
+
+#btn{
+    width: 100%;
+    height:55px;
+    background-color: rgba(132, 164, 253, 0.548);
+    border:1px solid rgba(132, 165, 253, 0.199);
+    color:white;
+    font-size: 25px;
+    border-radius: 25px;
+}
+p{
+    color: #727171;
+}
+#checknum{
+    width:50%;
+}
+#getnum{
+    width:27%;
+    height:40px;
+    margin-left: 2%;
+    background-color: #fff;
+}
+
+#user-chmessage,#phone-chmessage,#pwd-chmessage,#num-chmessage{
+    width: 100%;
+    height:30px;
+    color: rgba(226, 34, 0, 0.89);
+    margin-left: 14%;
+    font-weight: bolder;
+    /* text-align: center; */
+}

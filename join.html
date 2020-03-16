@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度注册页面</title>
+    <link rel="stylesheet" href="./join.css">
+</head>
+<body>
+    <div class="showbox">
+        <div>
+            <h2>欢迎注册</h2>
+            <p>
+                "已有账号？"
+                <a>登录</a>
+            </p>
+        </div>
+        <div>
+            <div>
+                <label>
+                   <span class="txt">用户名</span> 
+                </label>
+                <input id='username' name='user' type="text" placeholder="请设置用户名"/>
+                <div id='user-chmessage'></div>
+            </div>
+            <div>
+                <span class="txt">手机号</span>
+                <input id='phone' name='phone' type="text" id='' placeholder="可用于登录和找回密码"/>
+                <div id='phone-chmessage'></div>
+            </div>
+            <div>
+                <span class="txt">密&nbsp;&nbsp;&nbsp;码</span>
+                <input id='pwd' name='pwd' type='password' placeholder="请设置登录密码"/>
+                <div id='pwd-chmessage'></div>
+            </div>
+            <div>
+                <span class="txt">验证码</span>
+                <input id='checknum' name='checknum' type='text' placeholder="请输入验证码"/>
+                <input id='getnum' name='getnum' type="button" value="获取验证码"/>
+                <div id='num-chmessage'></div>
+            </div>
+            <input id='btn' type="button" value="注册"/>
+        </div>
+    </div>
+</body>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- <script src="./def.js"></script> -->
+<script src="./join.js"></script>
+</html>
+
